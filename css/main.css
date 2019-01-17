@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  font-family: Arial;
+}
+.header{
+  height: 60px;
+  background: #e6e6e8;
+  background: -moz-linear-gradient(top, #e6e6e8 0%, #d8d8db 100%);
+  background: -webkit-linear-gradient(top, #e6e6e8 0%,#d8d8db 100%);
+  background: linear-gradient(to bottom, #e6e6e8 0%,#d8d8db 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e8', endColorstr='#d8d8db',GradientType=0 );
+  text-align: center;
+}
+.header-list{
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  width: 1170px;
+}
+.header-list__item{
+  display: inline-block;
+  margin-right: 60px;
+}
+.header-list__link{
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 24px;
+  color: #000;
+}
+.header-list__link_active{
+  background-color: #fdc903;
+  padding: 5px 10px;
+}
+.logo-wrapper{
+  text-align: center;
+}
+.logo__text{
+  text-transform: uppercase;
+  margin-top: 55px;
+  margin-top: 55px;margin-bottom: 10px;
+}
+.logo__text span{
+  color: #fdc903;
+}
+.logo__image{
+  background-color: #696969;
+  border-radius: 50%;
+}
+.content-wrapper{
+  margin: 0 auto;
+  width: 1238px;
+  background-color: aquamarine;
+}
+.content__title{
+  text-transform: capitalize;
+  color: #313030;
+  margin-left: 35px;
+}
+.content1{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 27px;
+}
+.content2{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 27px;
+}
+.content3{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 27px;
+}
+.content__img1{
+margin-left: 34px;
+}
+.content__img2{
+  margin-left: 34px;
+}
+.content__img3{
+  margin-left: 34px;
+}
+
+/* =====MAIN===== */
+
+.footer{
+  height: 217px;
+  background-color: #4a4a4a;
+  text-align: center;
+}
+.footer-wrapper{
+  display: inline-block;
+  white-space: nowrap;
+  width: 1170px;
+}
+.footer-123{
+  height: 217px;
+	float: left;
+	background: red;
+	width: 33%;
+}
+.copyright-wrapper{
+  display: inline-block;
+  float: left;
+}
+
+.footer__logo{
+  text-transform: capitalize;
+  color: #e2e2e2;
+  float: left;
+  margin-top: 20%; 
+}
+.footer__logo span{
+  color: #fdc903;
+}
+.copyright{
+  color: #e2e2e2;
+}
+.author{
+  color: #e2e2e2;
+  float: left;
+}
+.phone__label{
+  text-transform: capitalize;
+  color: #e2e2e2;
+  font-size: 24px;
+  line-height: 217px;
+}
+.phone__number{
+  color: #e2e2e2;
+  font-size: 24px;
+  line-height: 217px;
+}
